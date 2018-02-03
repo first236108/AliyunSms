@@ -1,0 +1,28 @@
+{
+    "name": "first236108/sms",
+    "type": "library",
+    "description": "阿里云短信SDK",
+    "keywords": ["aliyun", "Aliyun", "阿里云短信", "sms", "aliyun-sms", "短信"],
+    "homepage": "https://github.com/first236108/AliyunSms.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "first236108",
+            "email": "85210755@qq.com",
+            "homepage": "https://user.qzone.qq.com/85210755/"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "endroid/qrcode": "~1.9",
+        "codeception/codeception": "*"
+    },
+    "autoload": {
+        "psr-4": {"Sms\\": "Aliyun/"}
+    }
+}
