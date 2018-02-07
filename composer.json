@@ -15,14 +15,12 @@
     "require": {
         "php": ">=5.6",
         "ext-bcmath": "*",
-        "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "~6.0"
+        "ext-mbstring": "*"
     },
     "require-dev": {
-        "endroid/qrcode": "~1.9",
-        "codeception/codeception": "*"
+        "endroid/qrcode": "~1.9"
     },
     "autoload": {
-        "psr-4": {"Sms\\": "Aliyun/"}
+        "psr-4": {"Aliyun\\": "Aliyun/"}
     }
 }
