@@ -18,7 +18,7 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "endroid/qrcode": "~1.9"
+        "first236108/sms": "dev-master"
     },
     "autoload": {
         "psr-4": {"Aliyun\\": "Aliyun/"}
