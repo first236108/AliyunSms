@@ -1,5 +1,5 @@
 <?php
-namespace Aliyun;
+ namespace Aliyun;
 ini_set("display_errors", "on");
 
 require_once 'api_sdk/vendor/autoload.php';
@@ -9,7 +9,6 @@ use Aliyun\Core\Profile\DefaultProfile;
 use Aliyun\Core\DefaultAcsClient;
 use Aliyun\Api\Sms\Request\V20170525\SendSmsRequest;
 use Aliyun\Api\Sms\Request\V20170525\QuerySendDetailsRequest;
-
 // 加载区域结点配置
 Config::load();
 
