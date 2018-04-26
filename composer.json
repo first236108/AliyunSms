@@ -4,21 +4,17 @@
     "description": "阿里云短信SDK",
     "keywords": ["aliyun", "Aliyun", "阿里云短信", "sms", "aliyun-sms", "短信"],
     "homepage": "https://github.com/first236108/AliyunSms.git",
+    "version":"1.0.0",
     "license": "MIT",
     "authors": [
         {
-            "name": "first236108",
+            "name": "Alex Pan",
             "email": "85210755@qq.com",
-            "homepage": "https://user.qzone.qq.com/85210755/"
+            "homepage": "https://blog.csdn.net/first236108"
         }
     ],
     "require": {
-        "php": ">=5.6",
-        "ext-bcmath": "*",
-        "ext-mbstring": "*"
-    },
-    "require-dev": {
-        "first236108/sms": "dev-master"
+        "php": ">=5.6"
     },
     "autoload": {
         "psr-4": {"Aliyun\\": "Aliyun/"}
