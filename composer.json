@@ -1,10 +1,8 @@
 {
     "name": "first236108/sms",
-    "type": "library",
     "description": "阿里云短信SDK",
     "keywords": ["aliyun", "Aliyun", "阿里云短信", "sms", "aliyun-sms", "短信"],
-    "homepage": "https://github.com/first236108/AliyunSms.git",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +12,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {"Aliyun\\": "Aliyun/"}
