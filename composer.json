@@ -1,9 +1,8 @@
 {
     "name": "first236108/sms",
     "description": "阿里云短信SDK",
-    "keywords": ["aliyun", "Aliyun", "阿里云短信", "sms", "aliyun-sms", "短信"],
-    "version":"1.0.1",
     "license": "MIT",
+    "version":"1.0.0",
     "authors": [
         {
             "name": "Alex Pan",
@@ -12,9 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {"Aliyun\\": "Aliyun/"}
+        "psr-4": {
+            "Aliyun\\": "Aliyun/"
+        }
     }
 }
